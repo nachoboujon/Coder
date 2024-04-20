@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -15,14 +15,20 @@
 </head>
 <body>
     
-    <header>
-        <h1><img src="../assets/Texto_del_párrafo-removebg-preview.png" alt="" class="title"></h1>
+    <header class="headerProduct">
+        <a href="../index.html" class="enlacelogo">
+            <img src="../assets/Texto_del_párrafo-removebg-preview.png" alt="" class="title">
+        </a>
         <nav class="navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkresponsive">
+                <i class="fa-solid fa-bars"></i>
+            </label>
             <ul class="list">
-                <a href="index.html"><b>INICIO</b></a>   
+                <a href="../index.html"><b>INICIO</b></a>   
                 <a href="productos.html"><b>PRODUCTOS</b></a>    
                 <a href="contacto.html"><b>CONTACTO</b></a> 
-                <a href="horarios.html"><b>HORARIOS</b></a>
+                <a href="horarios.html" class="active"><b>HORARIOS</b></a>
             </ul>
             <span></span>
         </nav>
@@ -50,29 +56,32 @@
     </main>
 
     <footer>
-        <div class="containerlistpagos">
-            <h2>Metodos de pago</h2>
-            <ul class="containerfooterimg">
-                <li><img src="../assets/MaterCard.png" alt="" class="liImg"></li>
-                <li><img src="../assets/visa.png" alt="" class="liImg"></li>
-                <li><img src="../assets/MP.png" alt="" class="liImg"></li>
-            </ul>
-        </div>
-        <div>
-            <h2>Siguenos</h2>
-            <ul class="containerfooterimg">
-                <li class=""><a href=""><i class="fa-brands fa-facebook-f" style="color: #000;"></i></a></li>
-                <li class=""><a href="" target="_blank"><i class="fa-brands fa-instagram" style="color: #000;"></i></a></li>
-            </ul>
-        </div>
-        <div class="containerEmpresarial">
-            <h2>Contacto Empresarial</h2>
-            <ul>
-                <li>manuelneumaticos@gmail.com</li>
-                <li>+54 9 3447 129937</li>
-            </ul>
-            <p></p>
-        </div>
+        <section class="section-footer">
+            <div class="containerlistpagos">
+                <h2>Metodos de pago</h2>
+                <ul class="containerfooterimg">
+                    <li><img src="../assets/MaterCard.png" alt="" class="liImg"></li>
+                    <li><img src="../assets/visa.png" alt="" class="liImg"></li>
+                    <li><img src="../assets/MP.png" alt="" class="liImg"></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Siguenos</h2>
+                <div class="RedesSociales">
+                    <a href=""><i class="fa-brands fa-facebook-f" ></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                    
+            </div>
+            <div class="containerEmpresarial">
+                <h2>Contacto Empresarial</h2>
+                <ul>
+                    <li>manuelneumaticos@gmail.com</li>
+                    <li>+54 9 3447 129937</li>
+                </ul>
+                <p></p>
+            </div>
+        </section>
     </footer>
 </body>
 </html>

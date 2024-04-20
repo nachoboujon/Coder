@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,13 +14,19 @@
     <title>Manuel Neumaticos</title>
     <title>Document</title>
 </head>
-<body>
-    <header>
-        <h1><img src="../assets/Texto_del_párrafo-removebg-preview.png" alt="" class="title"></h1>
+<body class="BodyProducts">
+    <header class="headerProduct">
+        <a href="../index.html" class="enlacelogo">
+            <img src="../assets/Texto_del_párrafo-removebg-preview.png" alt="" class="title">
+        </a>
         <nav class="navbar">
+            <input type="checkbox" id="check">
+            <label for="check" class="checkresponsive">
+                <i class="fa-solid fa-bars"></i>
+            </label>
             <ul class="list">
-                <a href="index.html"><b>INICIO</b></a>   
-                <a href="productos.html"><b>PRODUCTOS</b></a>    
+                <a href="../index.html"><b>INICIO</b></a>   
+                <a href="productos.html" class="active"><b>PRODUCTOS</b></a>    
                 <a href="contacto.html"><b>CONTACTO</b></a> 
                 <a href="horarios.html"><b>HORARIOS</b></a>
             </ul>
@@ -34,73 +40,107 @@
         <div class="productos"> 
             <h1 class="titleProduct">PRODUCTOS</h1>
         
-            <div class="containerproduct">
-                <div class="product">
-                    <img src="../assets/neumaticoFirestone.jpg" alt="">
-                    <h2>Firestone DESTINATION AT2 285 70R17</h2>
-                    <p></p>
-                    <button>Comprar</button>
+            <section class="containerproduct">
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../assets/neumaticoFirestone.png" alt="">
+                    </div>
+                    <div class="card-description">
+                        <h3>Neumatico 1</h3>
+                        <p></p>
+                        <button>Comprar</button>    
+                    </div>
                 </div>
-                <div class="product">
-                    <img src="../assets/NeumaticoBridgeston.jpg" alt="">
-                    <h2>WEATHERPEAK</h2>
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../assets/NeumaticoBridgeston.png" alt="">
+                    </div>
+                    <div class="card-description">
+                        <h3>Neumatico 2</h3>
                     <p></p>
                     <button>Comprar</button>
+                    </div>
                 </div>
-                <div class="product">
-                    <img src="../assets/NeumaticoGoodYear.jpg" alt="">
-                    <h2>Goodyear Assurance All-Season 215/60-16 95T </h2>
+
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../assets/NeumaticoGoodYear.png" alt="">
+                    </div>
+                    <div class="card-description">
+                        <h3>Neumatico 3 </h3>
                     <p></p>
                     <button>Comprar</button>
+                    </div>
                 </div>
-                <div class="product">
-                    <img src="../assets/NeumaticoMichelin.jpg
-                    " alt="">
-                    <h2>Michelin Aro 21 Pilot Sport 4 S * 295/35R21 (107Y) XL</h2>
+
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../assets/NeumaticoMichelin.png" alt="">
+                    </div>
+                    <div class="card-description">
+                        <h3>Neumatico 4</h3>
                     <p></p>
                     <button>Comprar</button>
+                    </div>
                 </div>
-                <div class="product">
-                    <img src="../assets/NeumaticoPirelli.jpg" alt="">
-                    <h2>Pirelli Powergy 85H</h2>
+
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../assets/NeumaticoPirelli.png" alt="">
+                    </div>
+                    <div class="card-description">
+                        <h3>Neumatico 5</h3>
                     <p></p>
                     <button>Comprar</button>
+                    </div>
                 </div>
-                <div class="product">
-                    <img src="../assets/PirelliNeumatico.jpg" alt="">
-                    <h2>Pirelli Aro 21 P Zero MO1 265/40R21 (105Y) XL</h2>
+
+
+                <div class="card">
+                    <div class="card-img">
+                        <img src="../assets/PirelliNeumatico.png" alt="">
+                    </div>
+                    <div class="card-description">
+                        <h3>Neumatico 6</h3>
                     <p></p>
                     <button>Comprar</button>
+                    </div>
                 </div>
             </div>
-        </div>
-        
+            </section>
     </main>
 
     <footer>
-        <div class="containerlistpagos">
-            <h2>Metodos de pago</h2>
-            <ul class="containerfooterimg">
-                <li><img src="../assets/MaterCard.png" alt="" class="liImg"></li>
-                <li><img src="../assets/visa.png" alt="" class="liImg"></li>
-                <li><img src="../assets/MP.png" alt="" class="liImg"></li>
-            </ul>
-        </div>
-        <div>
-            <h2>Siguenos</h2>
-            <ul class="containerfooterimg">
-                <li class=""><a href=""><i class="fa-brands fa-facebook-f" style="color: #000;"></i></a></li>
-                <li class=""><a href="" target="_blank"><i class="fa-brands fa-instagram" style="color: #000;"></i></a></li>
-            </ul>
-        </div>
-        <div class="containerEmpresarial">
-            <h2>Contacto Empresarial</h2>
-            <ul>
-                <li>manuelneumaticos@gmail.com</li>
-                <li>+54 9 3447 129937</li>
-            </ul>
-            <p></p>
-        </div>
+        <section class="section-footer">
+            <div class="containerlistpagos">
+                <h2>Metodos de pago</h2>
+                <ul class="containerfooterimg">
+                    <li><img src="../assets/MaterCard.png" alt="" class="liImg"></li>
+                    <li><img src="../assets/visa.png" alt="" class="liImg"></li>
+                    <li><img src="../assets/MP.png" alt="" class="liImg"></li>
+                </ul>
+            </div>
+            <div>
+                <h2>Siguenos</h2>
+                <div class="RedesSociales">
+                    <a href=""><i class="fa-brands fa-facebook-f" ></i></a>
+                    <a href="" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                </div>
+                    
+            </div>
+            <div class="containerEmpresarial">
+                <h2>Contacto Empresarial</h2>
+                <ul>
+                    <li>manuelneumaticos@gmail.com</li>
+                    <li>+54 9 3447 129937</li>
+                </ul>
+                <p></p>
+            </div>
+        </section>
     </footer>
 
 </body>

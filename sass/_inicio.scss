@@ -1,0 +1,124 @@
+.mainindex{
+    display: flex;
+    flex-direction: column;
+}
+
+.presentacion{
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.presentacion p{
+    color: #fff;
+    width: auto;
+}
+
+.section-inicio{
+    text-align: center;
+    margin: 0;
+}
+
+.TituloPrincipal{
+    font-size: 3rem;
+    margin-top: 90px;
+    background-image: linear-gradient(to right bottom, #736ce3, #6c67db, #6562d3, #5f5dcb, #5858c3, #5254bc, #4d51b6, #474daf, #4149a8, #3c45a1, #36419a, #313d93);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.subtituloindex{
+    font-size: 1.5rem ;
+    color: #fff;
+    margin: 0;
+}
+
+
+section h2 {
+    font-size: 2rem;
+    color: #fff;
+    padding: 10px;
+}
+
+section p {
+    font-size: 1.5rem;
+    color: #fff;
+}
+
+.cajaimg {
+    margin-top: 100px;
+    padding-top: 50px;
+}
+
+.imagenescontainer {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px;
+}
+
+.imagenescontainer img {
+    width: 50px;
+    height: 50px;
+}
+
+.barra {
+    background-color: #0B0A47;
+    width: 100%;
+    height: 2px;
+    border-radius: 20px;
+}
+
+
+/*Destacados Inicio*/
+
+.titleDestacados {
+    text-align: center;
+    font-size: 40px;
+}
+
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.card-inicio{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 20px;
+}
+
+.card-inicio:hover{
+    transform: scale(1.2);
+}
+
+.card-img-inicio{
+    width: 100%;
+    height: 70%;
+}
+
+.card-img-inicio img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-description-inicio{
+    text-align: center;
+    color: #000;
+}
+
+.card-description-inicio h3{
+    font-size: 1.21rem ;
+}
+
+.card-description-inicio button{
+    background-color: #333;
+    width: 90%;
+    border-radius: 20px;
+}
