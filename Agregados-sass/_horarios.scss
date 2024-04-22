@@ -1,0 +1,49 @@
+/*HORARIOS*/
+.mainhorarios {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    border-radius: 20px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+}
+.horarios{
+    background-color: #0B0A47;
+    border-radius: 20px;
+}
+
+.horariosmain {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #333;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.listhorarios {
+    list-style: none;
+    padding: 0;
+}
+
+.listhorarios li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.address {
+    margin-top: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.address p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.address address {
+    margin-top: 10px;
+    font-style: normal;
+    color: #777;
+    font-size: 1.1rem;
+}

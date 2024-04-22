@@ -1,0 +1,11 @@
+@for $iterador from 1 through 3{
+    .card-#{$iterador}{
+        animation-name: animacion#{$iterador} ;
+
+        @keyframes animacion#{$iterador}{
+            100%{
+                transform: scale(20% * $iterador);
+            }
+        }
+    }
+}

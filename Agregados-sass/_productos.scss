@@ -1,0 +1,61 @@
+/*PRODUCTOS*/
+.Neumaticos{
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titleProduct{
+    margin-top: 100px;
+    background-image: linear-gradient(to right bottom, #736ce3, #6c67db, #6562d3, #5f5dcb, #5858c3, #5254bc, #4d51b6, #474daf, #4149a8, #3c45a1, #36419a, #313d93);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.containerproduct{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    gap: 30px;   
+}
+
+.card{
+    width: 250px;
+    height: 300px;
+    background-color: rgb(190, 190, 190);
+    border-radius: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.card:hover{
+    transform: scale(1.2);
+}
+
+.card-img{
+    width: 100%;
+    height: 60%;
+    overflow: hidden; /*Propiedad overflow para que escale dentro del contenedor*/
+}
+
+.card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+
+.card-description{
+    font-size:12px;
+    padding: 0px;
+}
+
+.card-description button{
+    width: 90%;
+    padding: 0;
+    border-radius: 20px;
+    color: #fff;
+    background-color: #0B0A47;
+}
