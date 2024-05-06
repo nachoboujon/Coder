@@ -9,3 +9,16 @@
         }
     }
 }
+
+
+@for $iterador from 1 through 2{
+    .titleDestacados{
+        animation-name:animador#{$iterador};
+
+        @keyframes titilo {
+            100%{
+                transform: scale(10%);
+            }
+        }
+    }
+}

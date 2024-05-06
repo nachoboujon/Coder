@@ -1,0 +1,70 @@
+/*HORARIOS*/
+
+.mainHorarios{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.horarios{
+    background-color: #000;
+    border-radius: 20px;
+    margin-top: 70px ;
+    width: 50%;
+}
+
+.horariosmain {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    background-image: linear-gradient(to right, #333333, #32303a, #302e42, #2e2b49, #2a2950, #262652, #222254, #1d1f56, #181a53, #13154f, #0d104c, #070a48);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.ubicacion h2{
+    font-size: 2rem;
+    color: #302e42;
+}
+
+.ubicacion p{
+    font-size: 1rem;
+    color: #333;
+    font-weight: 800;
+}
+
+.listhorarios {
+    list-style: none;
+    padding: 0;
+}
+
+.listhorarios li {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+.address {
+    margin-top: 30px;
+    font-style: italic;
+    text-align: center;
+}
+
+.address p {
+    margin: 0;
+    font-size: 1.2rem;
+}
+
+.address address {
+    margin-top: 10px;
+    font-style: normal;
+    color: #777;
+    font-size: 1.1rem;
+}
+
+@media screen and (max-width: 768px){
+    
+}
