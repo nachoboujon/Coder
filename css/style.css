@@ -133,6 +133,10 @@
     margin-top: 40px;
     padding: 0 20px;
   }
+  .card {
+    width: 150px;
+    height: 200px;
+  }
   .product {
     padding: 20px;
     max-width: calc(70% - 15px);
@@ -169,6 +173,14 @@
   display: flex;
   justify-content: start;
   align-items: center;
+  flex-direction: column;
+  width: 100%;
+}
+
+.seccion-contacto h2 {
+  font-size: 2rem;
+  color: #333;
+  text-align: center;
 }
 
 .container {
@@ -178,9 +190,10 @@
 }
 
 .container h2 {
-  font-size: 24px;
-  color: #000;
+  font-size: 20px;
+  color: #fff;
   margin-bottom: 10px;
+  text-transform: uppercase;
 }
 
 .container p {
@@ -229,13 +242,31 @@ button.send:hover {
 @media screen and (max-width: 768px) {
   /*Main Contacto*/
   .mainContacto {
-    background-position: center;
-    background-size: cover;
+    width: 100%;
+    height: auto;
+  }
+  .container {
+    width: auto;
+  }
+  .seccion-contacto h2 {
+    font-size: 1.5rem;
+    color: #333;
+  }
+}
+@media screen and (max-width: 480px) {
+  .mainContacto {
     width: auto;
     height: auto;
   }
   .container {
     width: auto;
+  }
+  .contenedorcontacto {
+    width: 300px;
+  }
+  .seccion-contacto h2 {
+    font-size: 1.3rem;
+    color: #333;
   }
 }
 /*HORARIOS*/
@@ -304,6 +335,16 @@ button.send:hover {
   font-size: 1.1rem;
 }
 
+@media screen and (max-width: 768px) {
+  .horarios {
+    width: 300px;
+    height: 450px;
+  }
+  .horarios h2 {
+    font-size: 25px;
+    text-transform: uppercase;
+  }
+}
 .main-SN {
   color: #fff;
   display: flex;

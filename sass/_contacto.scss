@@ -3,8 +3,15 @@
     display: flex;
     justify-content: start;
     align-items: center;
+    flex-direction: column;
+    width: 100%;
 }
 
+.seccion-contacto h2{
+    font-size: 2rem;
+    color: #333;
+    text-align: center;
+}
 .container {
     margin-top: 100px;
     border-radius: 20px;
@@ -12,9 +19,10 @@
 }
 
 .container h2 {
-    font-size: 24px;
-    color: #000;
+    font-size: 20px;
+    color: #fff;
     margin-bottom: 10px; 
+    text-transform: uppercase;
 }
 
 .container p {
@@ -65,13 +73,37 @@ button.send:hover {
         /*Main Contacto*/
 
         .mainContacto{
-            background-position: center;
-            background-size: cover;
-            width: auto;
+            width: 100%;
             height: auto;
         }
     
         .container{
             width: auto;
         }
+
+        .seccion-contacto h2{
+            font-size: 1.5rem;
+            color:#333;
+        }
+}
+
+@media screen and (max-width: 480px) {
+    .mainContacto{
+        width: auto;
+        height: auto;
+    }
+
+    .container{
+        width: auto;
+    }
+
+    .contenedorcontacto{
+        width: 300px ;
+    }
+
+    .seccion-contacto h2{
+        font-size: 1.3rem;
+        color:#333;
+    }
+
 }
