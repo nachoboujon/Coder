@@ -821,7 +821,7 @@ footer {
     flex-direction: column;
   }
   .list a {
-    margin: 45px 0;
+    margin: 25px 0;
   }
   .list a:hover, .list a.active {
     background: none;
